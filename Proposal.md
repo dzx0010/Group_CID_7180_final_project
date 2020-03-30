@@ -6,7 +6,7 @@ to analyse the genome structure and estimate the evolution and spread of COVID-1
 For our project we are:
 1. Downloading all complete genome sequences from NCBI: https://www.ncbi.nlm.nih.gov/genbank/sars-cov-2-seqs/
 2. Estimating genome structures like: genome size, G+C content, genome signature and so on
-3. Comparing genome stuctures (create heat map):
+3. Comparing genome stuctures (create heat map): https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download
  a. find ORFS
  b. find variations
  c. find central conserved regions
