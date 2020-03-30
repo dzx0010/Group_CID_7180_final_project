@@ -1,3 +1,4 @@
+Project outline:
 The purpose of our project is to create a pipeline in python3 and bash that will compare  /
 the complete sequences of COVID-19 collected from different countries and different date /
 to analyse the genome structure and estimate the evolution and spread of COVID-19. 
