@@ -1,5 +1,5 @@
 #! /usr/bin/env python3
-
+''' 
 def parse_sequence_from_path(path):
     # Try to open the path to read from it, and handle exceptions if they
     # arrise
@@ -20,10 +20,8 @@ def parse_sequence_from_path(path):
     sequence = ''
     # A for loop to visit each line in the file
     for line in file_stream:
-        # Strip whitespace from the line and concatenate it to the end of the
-        # sequence
-        sequence += line.strip()
-    return sequence
+        # Strip whitespace from the line and concatenate it to the e
+'''
 
 
 def main():
@@ -63,11 +61,7 @@ def main():
     # Check to see if the path option was set to True by the caller. If so, parse
     # the sequence from the path
     if args.path:
-        sequence = parse_sequence_from_path(args.sequence)
-    else:
-        sequence = args.sequence
-
-    sequence = read_sequence.read_seq(sequence = sequence)
+        sequence = read_sequence.parse_sequence_from_path(args.sequence)
     sys.stdout.write('{}\n'.format(sequence))
 
 
