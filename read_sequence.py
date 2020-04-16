@@ -18,7 +18,7 @@ def parse_sequence_from_path(path):
         raise
  
     output_file = open('nucleotide_counts.tsv','w')
-    output_file.write('Gene\tA\tC\tG\tT\tLength\tCG%\n')
+    output_file.write('Gene\tDescription\tA\tC\tG\tT\tLength\tCG%\n')
     from Bio import SeqIO
     for cur_record in SeqIO.parse(input_file, "fasta") :
     #count nucleotides in this record...
