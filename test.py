@@ -61,10 +61,10 @@ def main():
     # Check to see if the path option was set to True by the caller. If so, parse
     # the sequence from the path
     if args.path:
-        sequence = read_sequence.parse_sequence_from_path(args.sequence)
-    sys.stdout.write('{}\n'.format(sequence))
+        read_sequence.parse_sequence_from_path(args.sequence)
 
 
 if __name__ == '__main__':
     main()
+
 

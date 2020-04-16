@@ -32,6 +32,6 @@ def parse_sequence_from_path(path):
         cg_percentage = float(C_count + G_count) / length
         output_line = '%s\t%s\t%i\t%i\t%i\t%i\t%i\t%f\n' % \
         (gene_name, gene_description,  A_count, C_count, G_count, T_count, length, cg_percentage)
-    output_file.write(output_line)
+        output_file.write(output_line)
     output_file.close()
     input_file.close()
