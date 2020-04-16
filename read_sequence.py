@@ -17,6 +17,7 @@ def parse_sequence_from_path(path):
                 path))
         raise
 def main():
+    import read_sequence
     import argparse
     import sys
     # Create a command-line parser object
@@ -37,7 +38,7 @@ def main():
                     'containing the sequence to be searched.'))
     # Parse the command-line arguments into a 'dict'-like container
     args = parser.parse_args()
-    input_file = parse_sequence_from_path(args.sequence) 
+ 
     output_file = open('nucleotide_counts.tsv','w')
     output_file.write('Gene\tA\tC\tG\tT\tLength\tCG%\n')
     from Bio import SeqIO
@@ -60,3 +61,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
