@@ -34,7 +34,6 @@ def main():
 
     # Tell the parser what command-line arguments this script can receive
     parser.add_argument('sequence',
-            metavar = 'SEQUENCE',
             type = str,
             help = ('The sequence to search for an open-reading frame. '
                     'If the path flag (\'-p\'/\'--path\') is specified, '
@@ -60,8 +59,8 @@ def main():
 
     # Check to see if the path option was set to True by the caller. If so, parse
     # the sequence from the path
-    if args.path:
-        read_sequence.parse_sequence_from_path(args.sequence)
+    read_sequence.parse_sequence_from_path(args.sequence)
+    
 
 
 if __name__ == '__main__':
