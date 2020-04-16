@@ -16,28 +16,6 @@ def parse_sequence_from_path(path):
         sys.stderr.write("Sorry, something went wrong when trying to open {}".format(
                 path))
         raise
-def main():
-    import read_sequence
-    import argparse
-    import sys
-    # Create a command-line parser object
-    parser = argparse.ArgumentParser(
-            formatter_class = argparse.ArgumentDefaultsHelpFormatter)
-
-    # Tell the parser what command-line arguments this script can receive
-    parser.add_argument('sequence',
-            metavar = 'SEQUENCE',
-            type = str,
-            help = ('The sequence to search for an open-reading frame. '
-                    'If the path flag (\'-p\'/\'--path\') is specified, '
-                    'then this should be a path to a file containing the '
-                    'sequence to be searched.'))
-    parser.add_argument('-p', '--path',
-            action = 'store_true',
-            help = ('The sequence argument should be treated as a path to a '
-                    'containing the sequence to be searched.'))
-    # Parse the command-line arguments into a 'dict'-like container
-    args = parser.parse_args()
  
     output_file = open('nucleotide_counts.tsv','w')
     output_file.write('Gene\tA\tC\tG\tT\tLength\tCG%\n')
@@ -57,8 +35,3 @@ def main():
     output_file.write(output_line)
     output_file.close()
     input_file.close()
-
-
-if __name__ == '__main__':
-    main()
-
