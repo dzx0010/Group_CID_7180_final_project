@@ -1,0 +1,30 @@
+setting dmc scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: CID.sh
+  The time limit is 60:00:00 HH:MM:SS.
+  The target directory is: /home/aubcls65/final_project/Group_Kcd_7180
+  The working directory is:  /scratch-local/aubcls65.CIDshSCRIPT.399536
+  The memory limit is: 1gb
+  The job will start running after: 2020-04-17T13:54:26
+  Job Name: CIDshSCRIPT
+  Virtual queue: small
+  QOS: --qos=small
+  Constraints: --constraint=dmc
+  Using  1  cores on master node  dmc30
+  Node list:  dmc30
+  Nodes:  dmc30
+  Command typed:
+/apps/scripts/run_script CID.sh     
+  Queue submit command:
+sbatch --qos=small -J CIDshSCRIPT --begin=2020-04-17T13:54:26 --requeue --mail-user=dzx0010@auburn.edu -o CIDshSCRIPT.o399536 -t 60:00:00 -N 1-1 -n 1 --mem-per-cpu=1000mb --constraint=dmc 
+Traceback (most recent call last):
+  File "/mnt/beegfs/home/aubcls65/final_project/Group_Kcd_7180/CID.py", line 68, in <module>
+    main()
+  File "/mnt/beegfs/home/aubcls65/final_project/Group_Kcd_7180/CID.py", line 63, in main
+    read_sequence.parse_sequence_from_path(args.sequence)
+  File "/mnt/beegfs/home/aubcls65/final_project/Group_Kcd_7180/read_sequence.py", line 23, in parse_sequence_from_path
+    from Bio import SeqIO
+ImportError: No module named 'Bio'
