@@ -28,6 +28,7 @@ def main():
     import read_sequence
     import argparse
     import sys
+    import find_orf_sequence
     # Create a command-line parser object
     parser = argparse.ArgumentParser(
             formatter_class = argparse.ArgumentDefaultsHelpFormatter)
@@ -60,7 +61,7 @@ def main():
     # Check to see if the path option was set to True by the caller. If so, parse
     # the sequence from the path
     read_sequence.parse_sequence_from_path(args.sequence)
-    
+    find_orf_sequence.parse_sequence_from_path(args.sequence)
 
 
 if __name__ == '__main__':
