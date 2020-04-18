@@ -8,20 +8,19 @@
 #and hope that works
 
 # awk -F "," '{print $6}' COVID_Seqs.csv 
-#
-#for Line in COVID_Seqs.csv 
+# awk -F "," '{print $1"_"$6}' COVID_Seqs.csv >> Testawk2.txt
+
+#for LINE in COVID_Seqs.csv 
 #do
-awk -F "," '{if ($6 == "China*") {print $1}}' COVID_Seqs.csv >> China_accessions.txt
-echo "China cases sorted"
-exit 1
+echo COVID_Seqs.csv | awk -F, '{if ($6 == "China") {print $1 >> China_accessions}}'
+#echo "China cases sorted"
 
-awk -F "," '{if ($6 == "USA*") {print $1}}' COVID_Seqs.csv >> USA_accessions.txt
-echo "USA cases sorted"
-exit 2
+#awk -F, '{if ($6 == "USA*") {print $1}}' >>USA_accessions.txt
+#echo "USA cases sorted"
 
-awk -F "," '{if ($6 ! "China*") && ($6 ! "USA*") {print $1}}' COVID_Seqs.csv >> Other_accessions.txt
- 
+#awk -F, '{if ($6 != "China*") && ($6 != "USA*") {print $1}}' >>Other_accessions.txt
+
 #done
-exit 0
+
 
 
