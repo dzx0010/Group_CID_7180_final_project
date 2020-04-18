@@ -7,19 +7,21 @@
 #later we will use head to get top 10 of each set
 #and hope that works
 
-for Line in COVID_seqs.csv 
-do
-    if $6 == 'China*' 
-    then
-        echo $1 >> China_accessions.txt
+# awk -F "," '{print $6}' COVID_Seqs.csv 
+#
+#for Line in COVID_Seqs.csv 
+#do
+awk -F "," '{if ($6 == "China*") {print $1}}' COVID_Seqs.csv >> China_accessions.txt
+echo "China cases sorted"
+exit 1
 
-    elif $6 == 'USA*'
-    then
-        echo $1 >> USA_accessions.txt
-    
-    else
-        echo $1 >> Other_accessions.txt
-    fi
-done
+awk -F "," '{if ($6 == "USA*") {print $1}}' COVID_Seqs.csv >> USA_accessions.txt
+echo "USA cases sorted"
+exit 2
+
+awk -F "," '{if ($6 ! "China*") && ($6 ! "USA*") {print $1}}' COVID_Seqs.csv >> Other_accessions.txt
+ 
+#done
+exit 0
 
 
