@@ -14,13 +14,17 @@ echo "List ready to sort"
 #sort -d --sort="China" -o China_sorted.txt COVID_Seqs.csv
 
 #grep for each country
-grep -e "China" Accessions_COVID.txt > China_sorted.txt
-grep -e "China:" Accessions_COVID.txt > China_sites_sorted.txt
+grep -e "China" Accessions_COVID.txt > China_sorted1.txt
+sort -R China_sorted1.txt > China_random_sorted.txt
+#grep -e "China:" Accessions_COVID.txt > China_sites_sorted.txt
 echo "China sorted"
 
 
 grep -e "USA" Accessions_COVID.txt > USA_sorted.txt
+
 grep -e "USA:" Accessions_COVID.txt > USA_states_sorted.txt
+sort -R USA_states_sorted.txt > USA_States_random_sorted.txt
+split -l 100 USA_States_random_sorted.txt USAstates_randsplit_
 echo "USA sorted"
 
 grep -f Euro_Countries.txt Accessions_COVID.txt > Euro_sorted.txt
