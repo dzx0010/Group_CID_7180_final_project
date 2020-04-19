@@ -8,7 +8,7 @@
 #Written by: Tamara Gademann & Boukje Heidstra
 #Written during the course Practical BioInformatics for Biologists
 #Latest revision: 1-2-2018
-
+#Edited by Cierla McGuire Sams 04-18-2020
 #Please read the whole script before use.
 
 #Make sure to make the script executable by the user with the following command: chmod u+r finalfile.sh
@@ -16,8 +16,24 @@
 #The in- and outputfiles are created inside the ~/Documents directory.
 #If you want to run this script, set your working directory to the Documents folder by:
 #cd ~/Documents
-
+cd ~/Group_CID_7180_final_project
 #Before you run the script, make sure Edirect is installed (see Step 1)
+
+#Installing ETE using the Anaconda/Miniconda environment
+# Install Minconda  (you can ignore this step if you already have Anaconda/Miniconda)
+#wget http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O Miniconda3-latest-Linux-x86_64.sh
+#bash Miniconda3-latest-Linux-x86_64.sh -b -p ~/anaconda_ete/
+#export PATH=~/anaconda_ete/bin:$PATH;
+
+# Install ETE
+#conda install -c etetoolkit ete3 ete_toolchain
+
+# Check installation
+#ete3 build check
+#Run the following line to activate Anaconda before using ETE:
+# Activate the environment 
+#export PATH=~/anaconda_ete/bin:$PATH
+#Tip: you can add the line to your .bashrc to make it permanent
 
 ####################################STEP 1######################################
 ##Downloading DNA sequences from the database (NCBI) 
@@ -26,6 +42,7 @@
 #The DNA sequences will be derived from the NCBI database by using Edirect.
 #First install Edirect by entering the website below and following the instructions:
 #https://www.ncbi.nlm.nih.gov/books/NBK179288/
+# commands inserted above
 
 #Ask user to enter species name
 read -p "Enter species name: " specname1
