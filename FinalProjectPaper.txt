@@ -1,12 +1,11 @@
-In the last few months, the Sars-CoV-2 or "coronavirus" has become a global pandemic causing stay-at-home orders and 
-the shutting down of the majority of businesses in most countries.
+In the last few months, the Sars-CoV-2 or "severe acute respiratory coronavirus 2" has become a global pandemic causing stay-at-home orders and the shutting down of the majority of businesses in most countries.
 The seriousness of this virus stems from its novelty, the rapid way in which it is able to spread, 
 and the severity of symptoms in many of its victims.
 In an effort to elucidate how the virus spreads, one can analyze the sequencing data taken from various countries around 
 the world and align them.
 Using an open-access site such as the National Center for Biotechnology Information (NCBI) database, 
-data analyses can easily be performed and shared
-in an attempt to further the development of a vaccine or to see how the virus is able to change as it travels.
+data analyses can easily be performed and sharedin an attempt to further the development of a vaccine 
+or to see how the virus is able to mutate as it travels.
 
 For our project, we created a pipeline of scripts to download sequences from the NCBI database,
 parse Accession numbers to pare down the data into a manageable form,
@@ -17,5 +16,7 @@ Rhinolophus sindicus (horseshoe bat), Manis javanica (pangolin), and Bungarus mu
 
 Figure 1: Script for downloading from NCBI (include installation instructions + software downloaded)
 Figure 2: Script(s) for ClustalOmega, etc.
-FIgure 3: Script for Phylogenetic Tree
+Figure 3: .png of ClustalOmega alignment(s)
+Figure 4: Script for Phylogenetic Tree
+Figure 5: .png of phylogenetic tree
 
