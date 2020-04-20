@@ -64,6 +64,13 @@ python3 genome_structure.py
 
 R code in PCA.R
 
-# 9 phylogentic tree using NCBI and ...
-
+# 9 phylogentic tree using NCBI and Clustalw2
+On command line type 'clustalw2'
+Selections appear for alignments, creating phylogenetic trees
+Phylogenetic Tree is selected
+Next, select .fasta or .aln files to upload
+After, select type of output file (.ph)
+Select type of phylogenetic tree (Neighbor joining)
+Input outfile name and run 
+Take outfile and view on NCBI
 
