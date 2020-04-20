@@ -1,0 +1,19 @@
+ 
+============================================================
+=====     Queued job information at submit time        =====
+============================================================
+  The submitted file is: Tree.sh
+  The time limit is 4:00:00 HH:MM:SS.
+  The target directory is: /home/aubcls61/Group_CID_7180_final_project/Part_1
+  The memory limit is: 500mb
+  The job will start running after: 2020-04-20T09:44:08
+  Job Name: TreeshSCRIPT
+  Virtual queue: express
+  QOS: --qos=express
+  Constraints: --constraint=dmc
+  Command typed:
+/apps/scripts/run_script Tree.sh     
+  Queue submit command:
+sbatch --qos=express -J TreeshSCRIPT --begin=2020-04-20T09:44:08 --requeue --mail-user=czm0119@auburn.edu -o TreeshSCRIPT.o$SLURM_JOB_ID -t 4:00:00 -N 1-1 -n 1 --mem-per-cpu=500mb --constraint=dmc 
+  Job number: 400375
+ 

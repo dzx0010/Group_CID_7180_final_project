@@ -1,0 +1,30 @@
+setting dmc scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: Tree.sh
+  The time limit is 60:00:00 HH:MM:SS.
+  The target directory is: /home/aubcls61/Group_CID_7180_final_project/Part_1
+  The working directory is:  /scratch-local/aubcls61.TreeshSCRIPT.400376
+  The memory limit is: 1gb
+  The job will start running after: 2020-04-20T09:49:41
+  Job Name: TreeshSCRIPT
+  Virtual queue: small
+  QOS: --qos=small
+  Constraints: --constraint=dmc
+  Using  1  cores on master node  dmc7
+  Node list:  dmc7
+  Nodes:  dmc7
+  Command typed:
+/apps/scripts/run_script Tree.sh     
+  Queue submit command:
+sbatch --qos=small -J TreeshSCRIPT --begin=2020-04-20T09:49:41 --requeue --mail-user=czm0119@auburn.edu -o TreeshSCRIPT.o400376 -t 60:00:00 -N 1-1 -n 1 --mem-per-cpu=1000mb --constraint=dmc 
+WARNING: Your old-style command-line options were converted to:  clustalo -i China_seqs.fasta -t DNA -o out_all_China_seqs.phy --outfmt PHYLIP -v --force
+Using 1 threads
+Read 66 sequences (type: DNA) from China_seqs.fasta
+not more sequences (66) than cluster-size (100), turn off mBed
+Calculating pairwise ktuple-distances...
+Ktuple-distance calculation progress: 0 % (0 out of 2211)Ktuple-distance calculation progress: 2 % (65 out of 2211)Ktuple-distance calculation progress: 5 % (129 out of 2211)Ktuple-distance calculation progress: 8 % (192 out of 2211)Ktuple-distance calculation progress: 11 % (254 out of 2211)Ktuple-distance calculation progress: 14 % (315 out of 2211)Ktuple-distance calculation progress: 16 % (375 out of 2211)Ktuple-distance calculation progress: 19 % (434 out of 2211)Ktuple-distance calculation progress: 22 % (492 out of 2211)Ktuple-distance calculation progress: 24 % (549 out of 2211)Ktuple-distance calculation progress: 27 % (605 out of 2211)Ktuple-distance calculation progress: 29 % (660 out of 2211)Ktuple-distance calculation progress: 32 % (714 out of 2211)Ktuple-distance calculation progress: 34 % (767 out of 2211)Ktuple-distance calculation progress: 37 % (819 out of 2211)Ktuple-distance calculation progress: 39 % (870 out of 2211)Ktuple-distance calculation progress: 41 % (920 out of 2211)Ktuple-distance calculation progress: 43 % (969 out of 2211)Ktuple-distance calculation progress: 45 % (1017 out of 2211)Ktuple-distance calculation progress: 48 % (1064 out of 2211)Ktuple-distance calculation progress: 50 % (1110 out of 2211)Ktuple-distance calculation progress: 52 % (1155 out of 2211)Ktuple-distance calculation progress: 54 % (1199 out of 2211)Ktuple-distance calculation progress: 56 % (1242 out of 2211)Ktuple-distance calculation progress: 58 % (1284 out of 2211)Ktuple-distance calculation progress: 59 % (1325 out of 2211)Ktuple-distance calculation progress: 61 % (1365 out of 2211)Ktuple-distance calculation progress: 63 % (1404 out of 2211)Ktuple-distance calculation progress: 65 % (1442 out of 2211)Ktuple-distance calculation progress: 66 % (1479 out of 2211)Ktuple-distance calculation progress: 68 % (1515 out of 2211)Ktuple-distance calculation progress: 70 % (1550 out of 2211)Ktuple-distance calculation progress: 71 % (1584 out of 2211)Ktuple-distance calculation progress: 73 % (1617 out of 2211)Ktuple-distance calculation progress: 74 % (1649 out of 2211)Ktuple-distance calculation progress: 75 % (1680 out of 2211)Ktuple-distance calculation progress: 77 % (1710 out of 2211)Ktuple-distance calculation progress: 78 % (1739 out of 2211)Ktuple-distance calculation progress: 79 % (1767 out of 2211)Ktuple-distance calculation progress: 81 % (1794 out of 2211)Ktuple-distance calculation progress: 82 % (1820 out of 2211)Ktuple-distance calculation progress: 83 % (1845 out of 2211)Ktuple-distance calculation progress: 84 % (1869 out of 2211)Ktuple-distance calculation progress: 85 % (1892 out of 2211)Ktuple-distance calculation progress: 86 % (1914 out of 2211)Ktuple-distance calculation progress: 87 % (1935 out of 2211)Ktuple-distance calculation progress: 88 % (1955 out of 2211)Ktuple-distance calculation progress: 89 % (1974 out of 2211)Ktuple-distance calculation progress: 90 % (1992 out of 2211)Ktuple-distance calculation progress: 91 % (2025 out of 2211)Ktuple-distance calculation progress: 92 % (2040 out of 2211)Ktuple-distance calculation progress: 93 % (2067 out of 2211)Ktuple-distance calculation progress: 94 % (2079 out of 2211)Ktuple-distance calculation progress: 95 % (2109 out of 2211)Ktuple-distance calculation progress: 96 % (2124 out of 2211)Ktuple-distance calculation progress: 97 % (2145 out of 2211)Ktuple-distance calculation progress done. CPU time: 1101.05u 0.44s 00:18:21.49 Elapsed: 00:18:21
+Guide-tree computation done.
+Progressive alignment progress: 1 % (1 out of 65)Progressive alignment progress: 3 % (2 out of 65)Progressive alignment progress: 4 % (3 out of 65)Progressive alignment progress: 6 % (4 out of 65)Progressive alignment progress: 7 % (5 out of 65)Progressive alignment progress: 9 % (6 out of 65)Progressive alignment progress: 10 % (7 out of 65)Progressive alignment progress: 12 % (8 out of 65)Progressive alignment progress: 13 % (9 out of 65)Progressive alignment progress: 15 % (10 out of 65)Progressive alignment progress: 16 % (11 out of 65)Progressive alignment progress: 18 % (12 out of 65)Progressive alignment progress: 20 % (13 out of 65)Progressive alignment progress: 21 % (14 out of 65)Progressive alignment progress: 23 % (15 out of 65)Progressive alignment progress: 24 % (16 out of 65)
