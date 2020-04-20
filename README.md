@@ -47,7 +47,7 @@ sed -e '/^[^>]/s/[^ATGCatgc]/N/g' example_sequence.fasta > example_sequence_proc
 # 4 Get genome sequences general data
 You can run with command line:
 python3 CID_sequence_description.py example_sequence_processed.fasta
-#5 Output longest orf fasta file
+# 5 Output longest orf fasta file
 python3 CID_longest_peptide.py example_sequence_processed.fasta
  
 # 6 Multiple alignment
