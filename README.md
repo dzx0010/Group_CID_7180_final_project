@@ -1,5 +1,5 @@
 # Group_CID_7180
-#1  install packages
+# 1  install packages
 1.  Set up running environment and install software:
 (1) Modify shebang line of setup.py to make it run correctly
 (2) $Python3 setup.py build    to build environment 
@@ -34,36 +34,36 @@ Now time to use pip to install packages like:
 
 pip install biopython
 pip install reportlab
-#2 Download genome sequence
+# 2 Download genome sequence
 1.you can download genomes sequence using script in part1
 
 2 Or download  all complete genomes with fasta format  and genbank data NC_045512.2.gb from NCBI:
 https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=SARS-CoV-2,%20taxid:2697049&SLen_i=29000%20TO%2030000
 
-#3 data preparation
+# 3 data preparation
 replace non ATCG by N.
 sed -e '/^[^>]/s/[^ATGCatgc]/N/g' example_sequence.fasta > example_sequence_processed.fasta
 
-#4 Get genome sequences general data
+# 4 Get genome sequences general data
 You can run with command line:
 python3 CID_sequence_description.py example_sequence_processed.fasta
 #5 Output longest orf fasta file
 python3 CID_longest_peptide.py example_sequence_processed.fasta
  
-#6 Multiple alignment
+# 6 Multiple alignment
 You can run with command line:
 ./multiple_alignment.sh
 or run with script 
 run_script multiple_alignment.sh 
 
-#7 Construct COVID 19 genome structure using NC_045512.2.gb and Multiple alignment results
+# 7 Construct COVID 19 genome structure using NC_045512.2.gb and Multiple alignment results
 
 python3 genome_structure.py
 
-#8 PCA for Cluster analysis based on genome sequences general data using R
+# 8 PCA for Cluster analysis based on genome sequences general data using R
 
 R code in PCA.R
 
-#9 phylogentic tree using NCBI and ...
+# 9 phylogentic tree using NCBI and ...
 
 
