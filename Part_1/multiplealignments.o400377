@@ -1,0 +1,25 @@
+setting dmc scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: multiple_alignment.sh
+  The time limit is 60:00:00 HH:MM:SS.
+  The target directory is: /home/aubcls61/Group_CID_7180_final_project/Part_1
+  The working directory is:  /scratch-local/aubcls61.multiplealignments.400377
+  The memory limit is: 1gb
+  The job will start running after: 2020-04-20T10:01:17
+  Job Name: multiplealignments
+  Virtual queue: small
+  QOS: --qos=small
+  Constraints: --constraint=dmc
+  Using  1  cores on master node  dmc57
+  Node list:  dmc57
+  Nodes:  dmc57
+  Command typed:
+/apps/scripts/run_script multiple_alignment.sh     
+  Queue submit command:
+sbatch --qos=small -J multiplealignments --begin=2020-04-20T10:01:17 --requeue --mail-user=czm0119@auburn.edu -o multiplealignments.o400377 -t 60:00:00 -N 1-1 -n 1 --mem-per-cpu=1000mb --constraint=dmc 
+FATAL: Sorry, I do not have permission to write to file '/home/aubcls61/Part_1/China_seqs.aln'.
+For more information try: clustalo --help
+clustal-omega: unexpected argument "/home/aubcls61/Part_1/USA_seqs.aln"
