@@ -26,10 +26,10 @@ for feature in record.features:
 # I want to include some strandless features, so for an example
 # will use EcoRI recognition sites etc.
 for site, name, color in [
-    ("GAATTC", "EcoRI", colors.green),
-    ("CCCGGG", "SmaI", colors.orange),
-    ("AAGCTT", "HindIII", colors.red),
-    ("GGATCC", "BamHI", colors.purple),
+    ("AAAGACCTTCTAGCACGTGCTGGTAAAG", "SNP", colors.green),
+    ("TATGTCGATAACAACTTCT", "SNP", colors.orange),
+    ("GACTTTAAACTTAATG", "SNP", colors.red),
+    ("TCATGTTATGGTT", "deletion", colors.blue),
 ]:
     index = 0
     while True:
@@ -50,5 +50,5 @@ for site, name, color in [
 gd_diagram.draw(format="linear", pagesize="A4", fragments=4, start=0, end=len(record))
 gd_diagram.write("virus_linear_nice.pdf", "PDF")
 gd_diagram.write("virus_linear_nice.eps", "EPS")
-gd_diagram.write("virus_linear_nice.svg", "SVG")
+gd_diagram.write("virus_linear_nice.png", "PNG")
 
