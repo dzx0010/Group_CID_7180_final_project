@@ -1,0 +1,19 @@
+India: Kerala State;MT012098
+India: Kerala State;MT050493
+Iran;MT320891
+Iran;MT281530
+Israel;MT276597
+Israel;MT276598
+Nepal;MT072688
+Pakistan: Gilgit;MT240479
+Pakistan: KPK;MT262993
+South Korea;MT304474
+South Korea;MT304475
+South Korea;MT304476
+South Korea;MT039890
+Taiwan;MT192759
+Taiwan;MT066175
+Taiwan;MT066176
+Turkey;MT327745
+Viet Nam: Ho Chi Minh city;MT192772
+Viet Nam: Ho Chi Minh city;MT192773
