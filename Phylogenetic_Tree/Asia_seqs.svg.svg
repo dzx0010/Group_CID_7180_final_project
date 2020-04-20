@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="1000" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g style="stroke:black;fill:lightgreen" transform="translate(30,30)">
+<line x1="814" y1="443" x2="814" y2="459" style="stroke:blue; stroke-width:1"/>
+<line x1="814" y1="459" x2="814" y2="459" style="stroke:blue; stroke-width:1"/>
+<line x1="814" y1="443" x2="814" y2="427" style="stroke:blue; stroke-width:1"/>
+<line x1="814" y1="427" x2="814" y2="427" style="stroke:blue; stroke-width:1"/>
+<line x1="809" y1="348" x2="809" y2="364" style="stroke:blue; stroke-width:1"/>
+<line x1="809" y1="364" x2="809" y2="364" style="stroke:blue; stroke-width:1"/>
+<line x1="809" y1="348" x2="809" y2="332" style="stroke:blue; stroke-width:1"/>
+<line x1="809" y1="332" x2="809" y2="332" style="stroke:blue; stroke-width:1"/>
+<line x1="68" y1="372" x2="68" y2="396" style="stroke:blue; stroke-width:1"/>
+<line x1="68" y1="396" x2="820" y2="396" style="stroke:blue; stroke-width:1"/>
+<line x1="62" y1="507" x2="62" y2="522" style="stroke:blue; stroke-width:1"/>
+<line x1="62" y1="522" x2="820" y2="522" style="stroke:blue; stroke-width:1"/>
+<line x1="62" y1="507" x2="62" y2="491" style="stroke:blue; stroke-width:1"/>
+<line x1="62" y1="491" x2="795" y2="491" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="457" x2="16" y2="554" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="554" x2="773" y2="554" style="stroke:blue; stroke-width:1"/>
+<line x1="207" y1="253" x2="207" y2="269" style="stroke:blue; stroke-width:1"/>
+<line x1="207" y1="269" x2="834" y2="269" style="stroke:blue; stroke-width:1"/>
+<line x1="207" y1="253" x2="207" y2="238" style="stroke:blue; stroke-width:1"/>
+<line x1="207" y1="238" x2="558" y2="238" style="stroke:blue; stroke-width:1"/>
+<line x1="134" y1="277" x2="134" y2="301" style="stroke:blue; stroke-width:1"/>
+<line x1="134" y1="301" x2="828" y2="301" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="154" x2="768" y2="206" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="206" x2="768" y2="206" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="127" x2="768" y2="143" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="143" x2="768" y2="143" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="127" x2="768" y2="111" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="111" x2="768" y2="111" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="150" x2="768" y2="174" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="174" x2="768" y2="174" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="32" x2="768" y2="48" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="48" x2="768" y2="48" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="32" x2="768" y2="16" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="16" x2="768" y2="16" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="56" x2="768" y2="79" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="79" x2="768" y2="79" style="stroke:blue; stroke-width:1"/>
+<line x1="65" y1="408" x2="65" y2="443" style="stroke:blue; stroke-width:1"/>
+<line x1="65" y1="443" x2="814" y2="443" style="stroke:blue; stroke-width:1"/>
+<line x1="68" y1="372" x2="68" y2="348" style="stroke:blue; stroke-width:1"/>
+<line x1="68" y1="348" x2="809" y2="348" style="stroke:blue; stroke-width:1"/>
+<line x1="65" y1="408" x2="65" y2="372" style="stroke:blue; stroke-width:1"/>
+<line x1="65" y1="372" x2="68" y2="372" style="stroke:blue; stroke-width:1"/>
+<line x1="33" y1="457" x2="33" y2="408" style="stroke:blue; stroke-width:1"/>
+<line x1="33" y1="408" x2="65" y2="408" style="stroke:blue; stroke-width:1"/>
+<line x1="33" y1="457" x2="33" y2="507" style="stroke:blue; stroke-width:1"/>
+<line x1="33" y1="507" x2="62" y2="507" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="457" x2="16" y2="457" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="457" x2="33" y2="457" style="stroke:blue; stroke-width:1"/>
+<line x1="134" y1="277" x2="134" y2="253" style="stroke:blue; stroke-width:1"/>
+<line x1="134" y1="253" x2="207" y2="253" style="stroke:blue; stroke-width:1"/>
+<line x1="74" y1="216" x2="74" y2="277" style="stroke:blue; stroke-width:1"/>
+<line x1="74" y1="277" x2="134" y2="277" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="457" x2="16" y2="216" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="216" x2="74" y2="216" style="stroke:blue; stroke-width:1"/>
+<line x1="74" y1="216" x2="74" y2="154" style="stroke:blue; stroke-width:1"/>
+<line x1="74" y1="154" x2="768" y2="154" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="150" x2="768" y2="127" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="127" x2="768" y2="127" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="103" x2="768" y2="150" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="150" x2="768" y2="150" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="154" x2="768" y2="103" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="103" x2="768" y2="103" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="56" x2="768" y2="32" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="32" x2="768" y2="32" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="103" x2="768" y2="56" style="stroke:blue; stroke-width:1"/>
+<line x1="768" y1="56" x2="768" y2="56" style="stroke:blue; stroke-width:1"/>
+<text x="777" y="560" font-weight = "10" font-family="verdana" fill="black" font-size="17">MT192759.1</text>
+<text x="824" y="528" font-weight = "10" font-family="verdana" fill="black" font-size="17">MT327745.1</text>
+<text x="799" y="497" font-weight = "10" font-family="verdana" fill="black" font-size="17">MT192773.1</text>
+<text x="818" y="465" font-weight = "10" font-family="verdana" fill="black" font-size="17">MT050493.1</text>
+<text x="818" y="433" font-weight = "10" font-family="verdana" fill="black" font-size="17">MT276597.1</text>
+<text x="824" y="402" font-weight = "10" font-family="verdana" fill="black" font-size="17">MT276598.1</text>
+<text x="813" y="370" font-weight = "10" font-family="verdana" fill="black" font-size="17">MT320891.2</text>
+<text x="813" y="338" font-weight = "10" font-family="verdana" fill="black" font-size="17">MT281530.2</text>
+<text x="832" y="307" font-weight = "10" font-family="verdana" fill="black" font-size="17">MT072688.1</text>
+<text x="838" y="275" font-weight = "10" font-family="verdana" fill="black" font-size="17">MT240479.1</text>
+<text x="562" y="244" font-weight = "10" font-family="verdana" fill="black" font-size="17">MT262993.1</text>
+<text x="772" y="212" font-weight = "10" font-family="verdana" fill="black" font-size="17">MT039890.1</text>
+<text x="772" y="180" font-weight = "10" font-family="verdana" fill="black" font-size="17">MT304476.1</text>
+<text x="772" y="149" font-weight = "10" font-family="verdana" fill="black" font-size="17">MT304474.1</text>
+<text x="772" y="117" font-weight = "10" font-family="verdana" fill="black" font-size="17">MT304475.1</text>
+<text x="772" y="85" font-weight = "10" font-family="verdana" fill="black" font-size="17">MT066176.1</text>
+<text x="772" y="54" font-weight = "10" font-family="verdana" fill="black" font-size="17">MT066175.1</text>
+<text x="772" y="22" font-weight = "10" font-family="verdana" fill="black" font-size="17">MT192772.1</text>
+</g></svg>
