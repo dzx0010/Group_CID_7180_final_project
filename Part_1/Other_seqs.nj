@@ -1,0 +1,46 @@
+
+
+ DIST   = percentage divergence (/100)
+ p      = rate of transition (A <-> G; C <-> T)
+ q      = rate of transversion
+ Length = number of sites used in comparison
+
+ Distances corrected by Kimura's 2 parameter model:
+
+ Kimura, M. (1980) A simple method for estimating evolutionary rates of base
+ substitutions through comparative studies of nucleotide sequences.
+ J. Mol. Evol., 16, 111-120.
+
+   1 vs.   2:  DIST =  0.0001; p = 0.0000; q = 0.0001; length =  29902
+   1 vs.   3:  DIST =  3.5000; p = 0.1160; q = 0.5899; length =  29900
+   1 vs.   4:  DIST =  3.5000; p = 0.1150; q = 0.5960; length =  29902
+   1 vs.   5:  DIST =  0.0004; p = 0.0000; q = 0.0004; length =  29903
+   2 vs.   3:  DIST =  3.5000; p = 0.1160; q = 0.5899; length =  29899
+   2 vs.   4:  DIST =  3.5000; p = 0.1149; q = 0.5960; length =  29901
+   2 vs.   5:  DIST =  0.0003; p = 0.0000; q = 0.0003; length =  29902
+   3 vs.   4:  DIST =  3.5000; p = 0.1140; q = 0.5992; length =  29899
+   3 vs.   5:  DIST =  3.5000; p = 0.1160; q = 0.5898; length =  29900
+   4 vs.   5:  DIST =  3.5000; p = 0.1149; q = 0.5960; length =  29902
+
+
+			Neighbor-joining Method
+
+ Saitou, N. and Nei, M. (1987) The Neighbor-joining Method:
+ A New Method for Reconstructing Phylogenetic Trees.
+ Mol. Biol. Evol., 4(4), 406-425
+
+
+ This is an UNROOTED tree
+
+ Numbers in parentheses are branch lengths
+
+
+ Cycle   1     =  SEQ:   3 (  1.75000) joins  SEQ:   4 (  1.75000)
+
+ Cycle   2     =  SEQ:   1 (  0.00000) joins  SEQ:   2 (  0.00000)
+
+ Cycle   3 (Last cycle, trichotomy):
+
+		 Node:   1 (  0.00015) joins
+		 Node:   3 (  1.74982) joins
+		  SEQ:   5 (  0.00018) 
