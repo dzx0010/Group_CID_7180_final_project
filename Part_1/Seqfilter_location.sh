@@ -1,5 +1,7 @@
 #!/bin/bash
 
+###This script has failed, please delete###
+
 #First echo the csv contents
 #then split into location files based on awk conditional
 #if $6= china then print $1 to China_accessions
