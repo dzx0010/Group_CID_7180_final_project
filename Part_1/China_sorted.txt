@@ -1,0 +1,67 @@
+China;NC_045512
+China;MT039874
+China;MT226610
+China;MT093631
+China;MN988668
+China;MN988669
+China;MN975262
+China;MN908947
+China: Anhui;MT281577
+China: Beijing;MT291831
+China: Beijing;MT291832
+China: Beijing;MT291833
+China: Beijing;MT291834
+China: Beijing;MT291835
+China: Beijing;MT291836
+China: Beijing;MT135041
+China: Beijing;MT135042
+China: Beijing;MT135043
+China: Beijing;MT135044
+China: Guangdong;MT123290
+China: Guangzhou;MT123291
+China: Guangzhou;MT123292
+China: Guangzhou;MT123293
+China: Hangzhou;MT039873
+China: Hubei;MT259226
+China: Hubei;MT259227
+China: Hubei;MT259228
+China: Hubei;MT259229
+China: Hubei;MT259230
+China: Hubei;MT259231
+China: Hubei;MT019529
+China: Hubei;MT019530
+China: Hubei;MT019531
+China: Hubei;MT019532
+China: Hubei;MT019533
+China: Shanghai;MT121215
+China: Shenzhen;MN938384
+China: Wuhan;MT291826
+China: Wuhan;MT291827
+China: Wuhan;MT291828
+China: Wuhan;MT291829
+China: Wuhan;MT291830
+China: Wuhan;MN996527
+China: Wuhan;MN996528
+China: Wuhan;MN996529
+China: Wuhan;MN996530
+China: Wuhan;MN996531
+China: Yunnan;MT049951
+China: Zhejiang;MT253696
+China: Zhejiang;MT253697
+China: Zhejiang;MT253698
+China: Zhejiang;MT253699
+China: Zhejiang;MT253700
+China: Zhejiang;MT253701
+China: Zhejiang;MT253702
+China: Zhejiang;MT253703
+China: Zhejiang;MT253704
+China: Zhejiang;MT253705
+China: Zhejiang;MT253706
+China: Zhejiang;MT253707
+China: Zhejiang;MT253708
+China: Zhejiang;MT253709
+China: Zhejiang;MT253710
+China:Wuhan;LR757995
+China:Wuhan;LR757996
+China:Wuhan;LR757997
+China:Wuhan;LR757998

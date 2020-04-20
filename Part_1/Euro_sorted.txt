@@ -1,0 +1,32 @@
+France;MT320538
+Greece;MT328032
+Greece;MT328033
+Greece;MT328034
+Greece;MT328035
+Italy;MT077125
+Italy;MT066156
+Spain;MT292569
+Spain;MT292570
+Spain;MT292571
+Spain;MT292572
+Spain;MT292573
+Spain;MT292574
+Spain;MT292575
+Spain;MT292576
+Spain;MT292577
+Spain;MT292578
+Spain;MT292579
+Spain;MT292580
+Spain;MT292581
+Spain;MT292582
+Spain: Valencia;MT256917
+Spain: Valencia;MT256918
+Spain: Valencia;MT233519
+Spain: Valencia;MT233520
+Spain: Valencia;MT233521
+Spain: Valencia;MT233522
+Spain: Valencia;MT233523
+Spain: Valencia;MT198651
+Spain: Valencia;MT198652
+Spain: Valencia;MT198653
+Sweden;MT093571

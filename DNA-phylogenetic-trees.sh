@@ -54,7 +54,7 @@ echo -e "Getting $specname1 DNA"
 #For entered species name, download DNA sequences 
 #from database (NCBI/GenBank) and create a fastafile per species.
 esearch -db Nucleotide -query "$specname1" |\
-efetch -format fasta >> ~/Documents/"$specname1".fasta
+efetch -format fasta >> ~/Group_CID_7180_final_project/"$specname1".fasta
 
 #Ask if there are more species to be entered using while loop
 while [ -z "$REPLY" ] ; do 
@@ -83,10 +83,10 @@ done
 #Rename all files; replace all spaces in filenames by underscores, 
 #to make it possible to search for
 #-f: Overwrite: allow existing files to be overwritten
-rename -f 's/ /_/g' ~/Documents/*.fasta
+rename -f 's/ /_/g' ~/Group_CID_7180_final_project/*.fasta
 
 #Combine all species DNA into one file
-cat ~/Documents/*.fasta > ~/Documents/allseq.fasta
+cat ~/Group_CID_7180_final_project/*.fasta > ~/Group_CID_7180_final_project/allseq.fasta
 
 ####################################STEP 2#####################################
 ##Clustalw is used to align the DNA sequences 
