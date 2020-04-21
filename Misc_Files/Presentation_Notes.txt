@@ -1,0 +1,24 @@
+Team Presentation
+15min to present
+5min questions
+
+Introduction:
+
+We are all currently being affected by coronavirus and that is why we are all meeting through Zoom today
+Sars CoV 2 has affected everyone globally and has created a pandemic due to lack of vaccine and because of its novelty
+
+Being able to gain access to the virus' sequence from different regions of the world and compare those sequences
+can give valuable insight into how it is mutating and how those mutations may affect people differently;
+specifically with severity of symptoms, etc. 
+
+For the first part of our project, we needed to be able to access the genetic sequences from NCBI's database, 
+download them, and parse information for later use.
+
+We then needed scripts to find ORFs and generally be able to find out basic information about each sequence. 
+
+Using NCBI's BLAST (Basic Alignment Tool) the selected sequences could then be aligned against one another to show 
+conservation and homology.
+
+Lastly, using NCBI's Phylogenetic Tree software, we can then create relationship between these sequences in an 
+effort to show origin, and how closely related they appear to be. This can give insight into how the virus 
+is able to move. 
